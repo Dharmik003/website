@@ -1,0 +1,363 @@
+<html>
+<head>
+    <title>Welcome</title>
+</head>
+<style>
+body {
+  background-image: url('https://www.appmachine.com/wp-content/uploads/2016/02/No-Branding-Header-Background-1.jpg');
+}
+.subtitle{
+color:#D0D3D4 ;
+margin-left:40px;
+font-size: 25px;
+
+
+}
+.title {
+	text-align:center;
+	color:#FFFFFF;
+	 margin-top:0px;
+  	margin-left:400px;
+ 	 margin-right:400px;
+   	font-size:50px;
+	position:absolute;
+	font-weight:bold;
+}
+
+.form-font1 {
+    padding: 16px;
+	font-size:20px;
+	margin-top:10px;
+	margin-left:10px;
+	color:#F4F6F7 ;
+
+}
+.text-field1
+{
+	position:absolute;
+	margin-top:0px;
+	height:30px;
+	width:400px;
+	margin-left:100px;
+	border-radius:10px;
+	border-color:#000000;
+
+}
+
+.form-font2 {
+    padding: 16px;
+	font-size:20px;
+	margin-top:-10px;
+	margin-left:10px;
+	color:#F4F6F7
+}
+.text-field2
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:185px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.form-font3 {
+    padding: 16px;
+	font-size:20px;
+	margin-top:-10px;
+	margin-left:10px;
+	color:#F4F6F7
+}
+.text-field3
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:110px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.form-font4 {
+    padding: 16px;
+	font-size:20px;
+	margin-top:-10px;
+	margin-left:10px;
+	color:#F4F6F7
+}
+.text-field4
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:175px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.text-field5
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:65px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.text-field6
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:20px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.text-field7
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:40px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.text-field8
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:-05px;
+	border-radius:10px;
+	border-color:#000000;
+}
+
+.text-field9
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:55px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field10
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:215px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field11
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:130px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field12
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:125px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field13
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:155px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field14
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:75px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field15
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:100px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field16
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:150px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.text-field17
+{
+	position:absolute;
+	margin-top:1px;
+	height:30px;
+	width:400px;
+	margin-left:155px;
+	border-radius:10px;
+	border-color:#000000;
+}
+.check
+{
+	position:absolute;
+    background-color:#2F4F4F ;
+    border: none;
+    color:#F4F6F7;
+    padding: 5px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left:500px;
+	margin-top:-10px;
+    cursor: pointer;
+	height:40px;
+	width:150px;
+	font-weight:bold;
+	border-radius:35px;
+
+}
+.check:hover {
+    background-color: #138D75 ;
+}
+</style>
+
+<body>
+    <h2 class="title" align="center">Check your eligibility</h2><br>
+    <h4  class="subtitle">All fields are compulsory</h4 >
+    <form method="post">
+    {% csrf_token %}
+
+        <label class="form-font1" for="disbursed_amount">Amount of Loan Disbursed : </label>
+        <input class="text-field1"   type="number" id="disbursed_amount" name="disbursed_amount" size="12">
+        <br>
+        <br>
+
+
+        <label class="form-font2" for="asset_cost">Cost of the Asset:</label>
+        <input class="text-field2" type="number" id="asset_cost" name="asset_cost" size="12">
+
+        <br>
+        <br>
+
+
+        <label class="form-font3"  for="ltv">Loan to Value of the Asset:</label>
+        <input  class="text-field3" type="number" id="ltv" name="ltv" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="emp_type">Employment Type:</label>
+        <select class="text-field4" id="emp_type" name="emp_type">
+            <option value="0">Salaried</option>
+            <option value="1">Self Employed</option>
+        </select>
+        <br>
+        <br>
+
+        <label class="form-font4" for="m_flag">Do you have a mobile? (yes/no):</label>
+        <input  class="text-field5" type="text" id="m_flag" name="m_flag" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="a_flag">Do you have an Adhar Card? (yes/no):</label>
+        <input class="text-field6" type="text" id="a_flag" name="a_flag" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="p_flag">Do you have a PAN Card? (yes/no):</label>
+        <input class="text-field7" type="text" id="p_flag" name="p_flag" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="d_flag">Do you have a Driving License? (yes/no):</label>
+        <input class="text-field8" type="text" id="d_flag" name="d_flag" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="pp_flag">Do you have a Passport? (yes/no):</label>
+        <input class="text-field9" type="text" id="pp_flag" name="pp_flag" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="performance_score">Bureau Score:</label>
+        <input class="text-field10" type="number" id="performance_score" name="performance_score" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="pri_accts">Number of Loans Taken:</label>
+        <input class="text-field11" type="number" id="pri_accts" name="pri_accts" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="pri_act_accts">Number of Loans Active:</label>
+        <input class="text-field12" type="number" id="pri_act_accts" name="pri_act_accts" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="pri_over">Number of Accounts:</label>
+        <input class="text-field13" type="number" id="pri_over" name="pri_over" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="pri_current">Principal Outstanding Amount:</label>
+        <input class="text-field14" type="number" id="pri_current" name="pri_current" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="delinq">Number of Loans Defaulted:</label>
+        <input class="text-field15" type="number" id="delinq" name="delinq" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="acct_age">Average Loan Tenure:</label>
+        <input class="text-field16" type="number" id="acct_age" name="acct_age" size="12">
+        <br>
+        <br>
+
+        <label class="form-font4" for="no_inq">Number of Inquiries:</label>
+        <input class="text-field17" type="number" id="no_inq" name="no_inq" size="12">
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <button class="check" type="submit" class="btn btn-primary">Check</button>
+         <br>
+        <br>
+    </form>
+</body>
+</html>
